@@ -1,4 +1,6 @@
 import { log } from './main';
 
-const a = 1;
-log(a);
+const title = 'Typescript PlayGround';
+const author = 'by Fabio Biondi';
+
+log(`${title} ${author}` );
