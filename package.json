@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "tslint -c tslint.json 'src/**/*.js'"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "webpack-dev-server": "^3.8.1"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "tslint": "^6.1.0"
   }
 }
