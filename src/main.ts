@@ -12,8 +12,6 @@ const input: HTMLElement = document.createElement('input');
 
   input.id = 'myInput';
   document.body.appendChild(input);
-
-  alert()
 })()
 
 export function log (value: any)  {
