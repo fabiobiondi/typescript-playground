@@ -4,14 +4,17 @@ const btn: HTMLElement = document.createElement('button');
 const input: HTMLElement = document.createElement('input');
 
 (() => {
-  document.body.appendChild(code);
 
+  btn.id = 'btn';
   btn.className = 'btn';
   btn.innerText = 'CLICK ME'
   document.body.appendChild(btn);
 
   input.id = 'myInput';
   document.body.appendChild(input);
+
+  document.body.appendChild(code);
+
 })()
 
 export function log (value: any)  {
