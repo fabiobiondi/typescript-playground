@@ -1,6 +1,6 @@
-import { log } from './main';
+import { fromEvent } from 'rxjs';
 
-const title = 'Typescript PlayGround';
-const author = 'by Fabio Biondi';
-
-log(`${title} ${author}` );
+fromEvent(document.getElementById('myInput'), 'input')
+  .subscribe((event: KeyboardEvent) => {
+    console.log('text:', (event.target as HTMLInputElement).value)
+  })

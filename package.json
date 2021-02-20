@@ -25,6 +25,7 @@
     "webpack-dev-server": "^3.8.1"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "rxjs": "^6.6.3"
   }
 }
