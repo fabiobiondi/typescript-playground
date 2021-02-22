@@ -9,4 +9,4 @@ fromEvent(document.getElementById('btn'), 'click')
   .subscribe(console.log)
 
 
-log('Helo World')
+log('Hello RxJS!')
