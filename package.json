@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open",
+    "start:node18": "export NODE_OPTIONS=--openssl-legacy-provider; webpack-dev-server --open ",
     "watch": "webpack --watch",
     "build": "webpack",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
